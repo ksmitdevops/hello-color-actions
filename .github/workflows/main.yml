@@ -19,6 +19,7 @@ jobs:
         env:
           CI: true
   deploy:
+    environment: Default
     needs: build
     runs-on: ubuntu-latest
     steps:
